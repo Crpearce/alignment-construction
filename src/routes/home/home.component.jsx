@@ -1,13 +1,12 @@
-import homeBg from '../../assets/homeBg.png'
+import Greeting from '../../components/greeting/greeting.component';
+import WorkTypes from '../../components/workTypes/workTypes.component';
 import './home.styles.css';
 
 const Home = () => {
     return (
-        <section className='home-container' style={{ backgroundImage: `url(${homeBg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize:'cover' }}>
-            <div>
-                <h1>test</h1>
-                <h2>logo</h2>
-            </div>
+        <section className='home-container'>
+            <Greeting />
+            <WorkTypes />
         </section>
     );
 }
