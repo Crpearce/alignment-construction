@@ -1,0 +1,37 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    min-height: 18vh;
+    top: 0;
+    left: 0;
+    /* z-index: 9; */
+    background-color: black;
+    width: 100%;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.logo {
+    width: 9vw;
+    border-radius: 5%;
+}
+
+a {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+a:hover {
+    color: red;
+}
