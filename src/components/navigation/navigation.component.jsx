@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import {BsFillTelephoneOutboundFill} from "react-icons/bs"
 import "./navigation.styles.css";
 
@@ -17,10 +17,10 @@ const Navigation = ({ tabs }) => {
         </ul>
       </aside>
       <div className="nav-sections-container">
-        <a href="/" aria-label="link to home" className="logo-container">
+        {/* <a href="/" aria-label="link to home" className="logo-container">
           
           <img src={logo} alt="alignment construction logo" className="logo" />
-        </a>
+        </a> */}
         <ul className="nav-menu">
           {tabs.map((category) => (
             <li key={category.id}>

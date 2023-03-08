@@ -1,3 +1,20 @@
 .greeting-container {
+    display: flex;
     height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-logo {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    width: 32rem;
+}
+
+.intro {
+    color: #c80001
+}
+
+.intro:hover {
+    color: black;
 }

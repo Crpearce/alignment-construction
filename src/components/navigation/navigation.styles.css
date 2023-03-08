@@ -20,8 +20,6 @@
 
 .logo {
     width: 8.5vw;
-    border-radius: 5%;
-    margin-bottom: 1vh;
 }
 
 .phone-container {
@@ -46,6 +44,10 @@ a {
     text-decoration: none;
     font-size: 1rem;
 }
+
+/* need to go back and adjust the hover effect for the phone number, the underline makes it hard to read
+   it is currently being assigned the a:hover styles from below.  Tried earlier to target the span but it was being
+   over ridden, go back and work with className?  */
 
 a:hover {
     color: red;
