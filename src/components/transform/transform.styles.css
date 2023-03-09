@@ -1,0 +1,32 @@
+.transform-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    background-color: white;
+}
+
+.transform-reach {
+    color: #c80001;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: .04rem;
+}
+
+.transform-types,
+.transform-number {
+    width: 70vw;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    color:#4a4a4a;
+}
+
+.transform-number {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    color:#4a4a4a;
+}
