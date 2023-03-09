@@ -33,13 +33,15 @@
     grid-template-columns: repeat(1, 4fr);
     gap: 1rem;
     justify-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .reason-card {
     display: flex;
     justify-content: center;
     text-align: center;
-    border: .25rem solid black;
+    border: .2rem solid black;
     width: 40vw;
     height: 3vh;
     padding:10px;
@@ -51,6 +53,6 @@
 .reason-card:hover .reason-text {
     color: black;
     background-color: white;
-    border: 0;
+    border-color: #c80001;
     transition: all 200ms ease;
 }

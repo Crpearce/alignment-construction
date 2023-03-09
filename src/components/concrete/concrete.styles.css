@@ -1,0 +1,32 @@
+.concrete-container {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.concrete-header {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+.concrete-schedule {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.35em;
+    letter-spacing: .07rem;
+    font-weight: 100;
+    color: white;
+}
+
+.concrete-button {
+    background-color: #c80001;
+    color: white;
+}
+
+.concrete-button:hover {
+    color: #c80001;
+    background-color: black;
+    font-weight: 900;
+}
