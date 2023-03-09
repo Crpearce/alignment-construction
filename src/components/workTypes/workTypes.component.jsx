@@ -5,7 +5,7 @@ import construction from "../../assets/structural.png";
 const WorkTypes = () => {
   return (
     <div className="work-type-wrapper">
-      <a
+      <div
         className="remodeling-container"
         style={{
           backgroundImage: `url(${kitchen})`,
@@ -14,10 +14,10 @@ const WorkTypes = () => {
         }}
       >
         <h4 className="remodeling-header">REMODELING</h4>
-        <span>
+        <span  className="remodeling-text">
           IF YOU WANT TO UPDATE YOUR PLACE. HIRE OUR HOME REMODELING CONTRACTOR.
         </span>
-      </a>
+      </div>
       <div
         className="structural-container"
         style={{
@@ -28,7 +28,7 @@ const WorkTypes = () => {
       >
         {" "}
         <h4 className="structural-header">STRUCTURAL SERVICES</h4>
-        <span>
+        <span className="structural-text">
           YOU CAN COUNT ON US TO IMPROVE THE STRUCTURAL INTEGRITY OF YOUR PROPERTY.
         </span>
       </div>

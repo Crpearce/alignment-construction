@@ -24,7 +24,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 3.25em;
   letter-spacing: .05rem;
-  color: red;
+  color: #c80001;
 }
 
 a{
@@ -52,6 +52,6 @@ button {
 }
 
 button:hover {
-  color: red;
+  color: #c80001;
   background-color: black;
 }
