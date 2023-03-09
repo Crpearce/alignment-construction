@@ -1,0 +1,37 @@
+.projects-wrapper {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    height: 70vh;
+}
+
+.additions-container,
+.concrete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.additions-title,
+.additions-text,
+.concrete-title,
+.concrete-text {
+    color: white;
+}
+
+.additions-container:hover,
+.additions-container:hover .additions-title,
+.concrete-container:hover,
+.concrete-container:hover .concrete-title {
+    color: #c80001;
+}
+
+.concrete-text,
+.additions-text{
+    font-weight: 500;
+    letter-spacing: .06rem;
+    word-spacing: .2rem;
+    font-size: 1rem;
+}
