@@ -1,12 +1,19 @@
-import "./workTypes.styles.css";
+import { useEffect } from "react";
 import kitchen from "../../assets/remodeling.png";
 import construction from "../../assets/structural.png";
+import AOS from "aos";
+import "./workTypes.styles.css";
+import "aos/dist/aos.css";
 
 const WorkTypes = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="work-type-wrapper">
       <div
         className="remodeling-container"
+        data-aos="fade-right"
         style={{
           backgroundImage: `url(${kitchen})`,
           backgroundRepeat: "no-repeat",
@@ -20,6 +27,7 @@ const WorkTypes = () => {
       </div>
       <div
         className="structural-container"
+        data-aos="fade-left"
         style={{
           backgroundImage: `url(${construction})`,
           backgroundRepeat: "no-repeat",
