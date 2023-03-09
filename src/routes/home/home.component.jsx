@@ -1,3 +1,4 @@
+import Concrete from '../../components/concrete/concrete.component';
 import Greeting from '../../components/greeting/greeting.component';
 import Reasons from '../../components/reasons/reasons.component';
 import WorkTypes from '../../components/workTypes/workTypes.component';
@@ -9,6 +10,7 @@ const Home = ({ justification }) => {
             <Greeting />
             <WorkTypes />
             <Reasons reasons={justification}/>
+            <Concrete />
         </section>
     );
 }
