@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import kitchen from "../../assets/remodeling.png";
 import construction from "../../assets/structural.png";
-import AOS from "aos";
 import "./workTypes.styles.css";
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 const WorkTypes = () => {
