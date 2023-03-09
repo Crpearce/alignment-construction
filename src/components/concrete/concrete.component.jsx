@@ -4,7 +4,7 @@ import "./concrete.styles.css";
 const Concrete = () => {
   return (
     <div
-      className="concrete-container"
+      className="concrete-section-container"
       style={{
         backgroundImage: `url(${concrete})`,
         backgroundRepeat: "no-repeat",
