@@ -15,8 +15,16 @@ html {
 
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 3.375em;
+  font-size: 3.25em;
   letter-spacing: .05rem;
+  color: white;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.25em;
+  letter-spacing: .05rem;
+  color: #c80001;
 }
 
 a{
@@ -32,4 +40,18 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight:bolder;
   font-size: 1.25em;
+}
+
+button {
+  background-color: white;
+  font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+  padding: 10px 20px;
+  border-radius: 5.5%;
+  font-weight: bolder;
+  letter-spacing: .05rem;
+}
+
+button:hover {
+  color: #c80001;
+  background-color: black;
 }

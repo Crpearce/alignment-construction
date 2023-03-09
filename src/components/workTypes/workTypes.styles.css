@@ -1,4 +1,34 @@
-.work-type-container {
-    position: relative;
-    height: 65vh;
+.work-type-wrapper {
+    display: flex;
+    height: 55vh;
+}
+
+.remodeling-container,
+.structural-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.remodeling-text,
+.structural-text {
+    color: white;
+    font-size: 1.25vw;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .05rem;
+}
+
+.remodeling-container:hover,
+.structural-container:hover {
+    transform: scale(1.05);
+    transition: all 300ms ease;
+}
+
+.remodeling-container:hover,
+.remodeling-container:hover .remodeling-header,
+.structural-container:hover,
+.structural-container:hover .structural-header {
+    color: white;
 }
