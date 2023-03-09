@@ -3,12 +3,12 @@ import Reasons from '../../components/reasons/reasons.component';
 import WorkTypes from '../../components/workTypes/workTypes.component';
 import './home.styles.css';
 
-const Home = () => {
+const Home = ({ justification }) => {
     return (
         <section className='home-container'>
             <Greeting />
             <WorkTypes />
-            <Reasons />
+            <Reasons reasons={justification}/>
         </section>
     );
 }

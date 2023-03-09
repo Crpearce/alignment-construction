@@ -23,7 +23,7 @@ const WorkTypes = () => {
       >
         <h4 className="remodeling-header">REMODELING</h4>
         <span className="remodeling-text">
-          IF YOU WANT TO UPDATE YOUR PLACE. HIRE OUR HOME REMODELING CONTRACTOR.
+          IF YOU WANT TO UPDATE YOUR PLACE, HIRE OUR HOME REMODELING CONTRACTOR.
         </span>
       </div>
       <div
