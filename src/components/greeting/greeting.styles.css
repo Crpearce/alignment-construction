@@ -8,13 +8,18 @@
 
 .greeting-logo {
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
-    width: 32rem;
+    width: 35rem;
+}
+
+.trust {
+    margin-top: 5vh;
+    margin-bottom: 0vh;
 }
 
 .intro {
     color: #c80001
 }
 
-.intro:hover {
-    color: black;
+.greeting-container:hover .intro {
+    color: white;
 }

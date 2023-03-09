@@ -1,9 +1,11 @@
 import { Outlet } from "react-router-dom";
 // import logo from "../../assets/logo.png";
 import {BsFillTelephoneOutboundFill} from "react-icons/bs"
+import 'aos/dist/aos.css'
 import "./navigation.styles.css";
 
 const Navigation = ({ tabs }) => {
+
   return (
     <div className="navigation-wrapper">
       <aside className="phone-container">

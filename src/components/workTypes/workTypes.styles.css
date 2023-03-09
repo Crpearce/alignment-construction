@@ -1,4 +1,29 @@
-.work-type-container {
-    position: relative;
-    height: 65vh;
+.work-type-wrapper {
+    /* position: relative; */
+    display: flex;
+    height: 55vh;
 }
+
+.remodeling-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+}
+
+.remodeling-header {
+    filter:brightness(100%)
+}
+
+.structural-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+
