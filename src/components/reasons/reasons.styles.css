@@ -41,18 +41,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    border: .2rem solid black;
+    border: .2rem solid #c80001;
     width: 40vw;
     height: 3vh;
     padding:10px;
     contain: content;
     border-radius: 6px;
-}
-
-.reason-card:hover,
-.reason-card:hover .reason-text {
-    color: black;
-    background-color: white;
-    border-color: #c80001;
-    transition: all 200ms ease;
 }
