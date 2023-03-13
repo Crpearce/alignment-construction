@@ -7,14 +7,14 @@ import "aos/dist/aos.css";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1250 });
   }, []);
 
   return (
     <div className="projects-wrapper">
       <div
         className="additions-container"
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-anchor-placement="bottom-bottom"
         style={{
           backgroundImage: `url(${blueprint})`,
@@ -24,12 +24,12 @@ const Projects = () => {
       >
         <h4 className="additions-title">ADDITIONS</h4>
         <span className="additions-text">
-          BOOST THE SQUARE FOOTAGE OF YOUR HOME BY GETTING IN TOUCH WITH US NOW
+          BOOST THE SQUARE FOOTAGE OF YOUR HOME BY GETTING IN TOUCH WITH US NOW.
         </span>
       </div>
       <div
         className="concrete-container"
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
         style={{
           backgroundImage: `url(${concrete2})`,
@@ -40,7 +40,7 @@ const Projects = () => {
         <h4 className="concrete-title">CONCRETE</h4>
         <span className="concrete-text">
           RELY ON OUR TEAM TO INSTALL CONCRETE DRIVEWAYS, FOUNDATIONS, AND
-          PATIOS
+          PATIOS.
         </span>
       </div>
     </div>
