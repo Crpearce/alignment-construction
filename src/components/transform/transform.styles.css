@@ -10,8 +10,9 @@
 .transform-reach {
     color: #c80001;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.25em;
     letter-spacing: .04rem;
+    font-weight: 100;
 }
 
 .transform-types,
