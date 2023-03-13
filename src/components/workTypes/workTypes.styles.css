@@ -1,6 +1,7 @@
 .work-type-wrapper {
     display: flex;
     height: 55vh;
+    width: 100%;
 }
 
 .remodeling-container,
