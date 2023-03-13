@@ -14,7 +14,7 @@ const Projects = () => {
     <div className="projects-wrapper">
       <div
         className="additions-container"
-        data-aos="fade-down"
+        data-aos="fade-up-right"
         data-aos-anchor-placement="bottom-bottom"
         style={{
           backgroundImage: `url(${blueprint})`,
@@ -29,7 +29,7 @@ const Projects = () => {
       </div>
       <div
         className="concrete-container"
-        data-aos="fade-up"
+        data-aos="fade-up-left"
         data-aos-anchor-placement="top-bottom"
         style={{
           backgroundImage: `url(${concrete2})`,
