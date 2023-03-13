@@ -44,15 +44,9 @@ a {
     font-size: .9rem;
 }
 
-/* need to go back and adjust the hover effect for the phone number, the underline makes it hard to read
-   it is currently being assigned the a:hover styles from below.  Tried earlier to target the span but it was being
-   over ridden, go back and work with className?  */
-
 a:hover {
     color: red;
-    /* font-size: 1.05rem; */
-    /* font-weight: 800; */
-    transition: all 800ms ease;
+    transition: all 600ms ease;
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-color: white;
