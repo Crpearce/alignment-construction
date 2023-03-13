@@ -5,13 +5,13 @@ import Home from "../routes/home/home.component";
 import "./App.css";
 
 function App() {
-
   return (
-    <Routes className='App'>
-      <Route path='/' element={<Navigation tabs={sections} /> }>
-        <Route index element={<Home justification={reasons} />} />
-      </Route>
-    </Routes>
+    <>
+      <Navigation tabs={sections} />
+      <Routes className="App">
+        <Route path="/" element={<Home justification={reasons} />} />
+      </Routes>
+    </>
   );
 }
 

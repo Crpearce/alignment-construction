@@ -1,6 +1,4 @@
-import { Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-// import logo from "../../assets/logo.png";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import "aos/dist/aos.css";
 import "./navigation.styles.css";
@@ -24,10 +22,6 @@ const Navigation = ({ tabs }) => {
         </ul>
       </aside>
       <div className="nav-sections-container">
-        {/* <a href="/" aria-label="link to home" className="logo-container">
-          
-          <img src={logo} alt="alignment construction logo" className="logo" />
-        </a> */}
         <ul className="nav-menu">
           {tabs.map((category) => (
             <li key={category.id} className="nav-links">
@@ -44,7 +38,6 @@ const Navigation = ({ tabs }) => {
           ))}
         </ul>
       </div>
-      <Outlet />
     </div>
   );
 };
