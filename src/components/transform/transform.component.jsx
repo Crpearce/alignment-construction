@@ -3,10 +3,10 @@ import "./transform.styles.css";
 const Transform = () => {
   return (
     <div className="transform-wrapper" data-aos="zoom-in">
-      <h2>WANT TO TRANSFORM YOUR HOME'S APPEARANCE</h2>
+      <h2>WANT TO TRANSFORM YOUR HOME'S APPEARANCE?</h2>
       <span className="transform-reach">
         {" "}
-        REACH OUT TO OUR HOME REMODELER IN LITTLETON & AURORA, CO
+        REACH OUT TODAY TO SCHEDULE OUR SERVICES
       </span>
       <p className="transform-types">
         You're reminded how shabby your place looks every time you come home.
@@ -16,7 +16,7 @@ const Transform = () => {
         basement, we have you covered.
       </p>
       <span className="transform-number">
-        Call (720) 282-1210 today to schedule services with out home remodeler
+        Call (720) 282-1210 
       </span>
     </div>
   );

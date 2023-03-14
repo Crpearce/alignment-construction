@@ -5,7 +5,6 @@ import WorkTypes from '../../components/workTypes/workTypes.component';
 import Projects from '../../components/projects/projects.component';
 import Transform from '../../components/transform/transform.component';
 import Hours from '../../components/hours/hours.component';
-import Footer from '../../components/footer/footer.component';
 import './home.styles.css';
 
 const Home = ({ justification }) => {
@@ -19,7 +18,6 @@ const Home = ({ justification }) => {
             <Transform />
             <Concrete />
             <Hours />
-            <Footer />
         </section>
     );
 }

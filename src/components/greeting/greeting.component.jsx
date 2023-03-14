@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./greeting.styles.css";
+import { Link } from "react-router-dom";
 
 const Greeting = () => {
   useEffect(() => {
@@ -30,7 +31,9 @@ const Greeting = () => {
       <p className="intro">
         Look to our home remodeling contractor in Littleton & Aurora, CO
       </p>
-      <button>CONTACT US</button>
+      <Link to='/contact'>
+        <button>CONTACT US</button>
+      </Link>
     </div>
   );
 };
