@@ -26,13 +26,14 @@ const Navigation = ({ tabs }) => {
           {tabs.map((category) => (
             <li key={category.id} className="nav-links">
               <NavLink
+                className='section-tab'
                 to={`/${category.link}`}
                 style={{
                   textDecoration: "none",
                   color: "white",
                 }}
               >
-                <a>{category.title}</a>
+                <span className='section-tab'>{category.title}</span>
               </NavLink>
             </li>
           ))}
