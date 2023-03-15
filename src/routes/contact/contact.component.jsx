@@ -18,9 +18,9 @@ const Contact = () => {
             href="tel:(720)282-1210"
             data-icon="A"
             title="(720)282-1210"
-            className="phone"
+            className="contact-number"
           >
-            <span className="contact-number"> (720) 282-1210</span>
+           (720) 282-1210
           </a>{" "}
           or fill out the form below to learn more about our services today.
         </span>

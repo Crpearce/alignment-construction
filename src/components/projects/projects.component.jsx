@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import blueprint from "../../assets/blueprint.png";
 import concrete2 from "../../assets/concrete2.png";
 import AOS from "aos";
-import "./projects.styles.css";
 import "aos/dist/aos.css";
+import "./projects.styles.css";
 
 const Projects = () => {
   useEffect(() => {

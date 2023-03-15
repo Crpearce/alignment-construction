@@ -21,7 +21,8 @@
 }
 
 .contact-number {
-    color: #c80001
+    color: #c80001;
+    text-decoration: underline;
 }
 
 .form {
