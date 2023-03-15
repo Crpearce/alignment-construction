@@ -1,4 +1,5 @@
 import concrete from "../../assets/concrete.png";
+import { Link } from "react-router-dom";
 import "./concrete.styles.css";
 
 const Concrete = () => {
@@ -13,9 +14,15 @@ const Concrete = () => {
         width: "100%",
       }}
     >
-        <h3 className="concrete-header">BEAUTIFY YOUR PLACE WITH NEW CONCRETE FEATURES</h3>
-        <p className="concrete-schedule">SCHEDULE CONCRETE FLATWORK SERVICES TODAY</p>
+      <h3 className="concrete-header">
+        BEAUTIFY YOUR PLACE WITH NEW CONCRETE FEATURES
+      </h3>
+      <p className="concrete-schedule">
+        SCHEDULE CONCRETE FLATWORK SERVICES TODAY
+      </p>
+      <Link to="/contact">
         <button className="concrete-button">CONTACT US</button>
+      </Link>
     </div>
   );
 };

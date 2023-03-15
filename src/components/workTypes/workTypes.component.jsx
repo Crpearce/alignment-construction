@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import kitchen from "../../assets/remodeling.png";
 import construction from "../../assets/structural.png";
 import "./workTypes.styles.css";
@@ -12,7 +13,8 @@ const WorkTypes = () => {
 
   return (
     <div className="work-type-wrapper">
-      <div
+      <Link
+        to='/remodeling'
         className="remodeling-container"
         data-aos="fade-right"
         style={{
@@ -25,8 +27,9 @@ const WorkTypes = () => {
         <span className="remodeling-text">
           IF YOU WANT TO UPDATE YOUR PLACE, HIRE OUR HOME REMODELING CONTRACTOR.
         </span>
-      </div>
-      <div
+      </Link>
+      <Link
+        to='/structural'
         className="structural-container"
         data-aos="fade-left"
         style={{
@@ -40,7 +43,7 @@ const WorkTypes = () => {
           YOU CAN COUNT ON US TO IMPROVE THE STRUCTURAL INTEGRITY OF YOUR
           PROPERTY.
         </span>
-      </div>
+      </Link>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.form-wrapper {
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+    width:fit-content;
+}
+
+.send-email-button {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
