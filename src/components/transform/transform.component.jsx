@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 import "./transform.styles.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Transform = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1250 });
+  }, []);
+
   return (
     <div className="transform-wrapper" data-aos="zoom-in">
       <h2>WANT TO TRANSFORM YOUR HOME'S APPEARANCE?</h2>
@@ -15,9 +22,7 @@ const Transform = () => {
         and functionality. Whether you want to update your kitchen, bathroom or
         basement, we have you covered.
       </p>
-      <span className="transform-number">
-        Call (720) 282-1210 
-      </span>
+      <span className="transform-number">Call (720) 282-1210</span>
     </div>
   );
 };

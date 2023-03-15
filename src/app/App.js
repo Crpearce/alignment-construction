@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { sections, reasons } from "./data";
 import Navigation from "../components/navigation/navigation.component";
-import Footer from '../components/footer/footer.component';
 import Home from "../routes/home/home.component";
 import Contact from "../routes/contact/contact.component";
+import Remodeling from "../routes/remodeling/remodeling.component";
+import Footer from '../components/footer/footer.component';
 import "./App.css";
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <Routes className="App">
         <Route path="/" element={<Home justification={reasons}/>}/>
         <Route path="/contact" element={<Contact />}/>
+        <Route path="/remodeling" element={<Remodeling />}/>
+
       </Routes>
       <Footer />
     </>
