@@ -13,6 +13,11 @@
     width: 50%;
 }
 
+.remodeling-header,
+.structural-header{
+    color: white;
+}
+
 .remodeling-text,
 .structural-text {
     color: white;
@@ -21,16 +26,11 @@
     letter-spacing: .06rem;
 }
 
-/* .remodeling-container:hover {
-    transform: scale(1.5);
-    transition: all 300ms ease;
-} */
-
 .remodeling-container:hover,
 .remodeling-container:hover .remodeling-header,
 .structural-container:hover,
 .structural-container:hover .structural-header {
-    color: white;
+    color: #c80001;
     transform: scale(1.1);
     transition: all 300ms ease;
 }

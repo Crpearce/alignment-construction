@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import blueprint from "../../assets/blueprint.png";
 import concrete2 from "../../assets/concrete2.png";
 import AOS from "aos";
@@ -12,7 +13,8 @@ const Projects = () => {
 
   return (
     <div className="projects-wrapper">
-      <div
+      <Link
+        to='/additions'
         className="additions-container"
         data-aos="fade-up-right"
         data-aos-anchor-placement="bottom-bottom"
@@ -26,8 +28,9 @@ const Projects = () => {
         <span className="additions-text">
           BOOST THE SQUARE FOOTAGE OF YOUR HOME BY GETTING IN TOUCH WITH US NOW.
         </span>
-      </div>
-      <div
+      </Link>
+      <Link
+        to='/concrete'
         className="concrete-container"
         data-aos="fade-up-left"
         data-aos-anchor-placement="top-bottom"
@@ -42,7 +45,7 @@ const Projects = () => {
           RELY ON OUR TEAM TO INSTALL CONCRETE DRIVEWAYS, FOUNDATIONS, AND
           PATIOS.
         </span>
-      </div>
+      </Link>
     </div>
   );
 };
