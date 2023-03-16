@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.remodeling-container,
+.remodeling-link-container,
 .structural-container {
     display: flex;
     flex-direction: column;
@@ -13,12 +13,12 @@
     width: 50%;
 }
 
-.remodeling-header,
+.remodeling-link-header,
 .structural-header{
     color: white;
 }
 
-.remodeling-text,
+.remodeling-link-text,
 .structural-text {
     color: white;
     font-size: 1.25vw;
@@ -26,11 +26,9 @@
     letter-spacing: .06rem;
 }
 
-.remodeling-container:hover,
-.remodeling-container:hover .remodeling-header,
+.remodeling-link-container:hover,
+.remodeling-link-container:hover .remodeling-header,
 .structural-container:hover,
 .structural-container:hover .structural-header {
     color: #c80001;
-    transform: scale(1.1);
-    transition: all 300ms ease;
 }

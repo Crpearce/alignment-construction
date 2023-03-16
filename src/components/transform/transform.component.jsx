@@ -22,7 +22,14 @@ const Transform = () => {
         and functionality. Whether you want to update your kitchen, bathroom or
         basement, we have you covered.
       </p>
-      <span className="transform-number">Call (720) 282-1210</span>
+      <a
+            href="tel:(720)282-1210"
+            data-icon="A"
+            title="(720)282-1210"
+            className="contact-number"
+          >
+           Call (720) 282-1210
+          </a>
     </div>
   );
 };
