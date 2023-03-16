@@ -1,4 +1,3 @@
-import Card from "../card/card.component";
 import "./reasons.styles.css";
 
 const Reasons = ({ reasons }) => {
@@ -13,10 +12,9 @@ const Reasons = ({ reasons }) => {
         </p>
         <ul className="list">
           {reasons.map((reason) => (
-            <Card key={reason.id} className="reason-card">
-              <div className="reason-icon"></div>
-              <h5 className="reason-text">{reason.reason}</h5>
-            </Card>
+            <li key={reason.id} className="reason-card">
+              <span className="reason-text">{reason.reason}</span>
+            </li>
           ))}
         </ul>
         <p className="reasons-description">

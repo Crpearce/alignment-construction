@@ -24,7 +24,7 @@ const Projects = () => {
           backgroundSize: "cover",
         }}
       >
-        <h4 className="additions-title">ADDITIONS</h4>
+        <span className="additions-title">ADDITIONS</span>
         <span className="additions-text">
           BOOST THE SQUARE FOOTAGE OF YOUR HOME BY GETTING IN TOUCH WITH US NOW.
         </span>
@@ -40,7 +40,7 @@ const Projects = () => {
           backgroundSize: "cover"
         }}
       >
-        <h4 className="concrete-title">CONCRETE</h4>
+        <span className="concrete-title">CONCRETE</span>
         <span className="concrete-text">
           RELY ON OUR TEAM TO INSTALL CONCRETE DRIVEWAYS, FOUNDATIONS, AND
           PATIOS.
