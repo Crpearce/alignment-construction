@@ -1,3 +1,40 @@
+.remodeling-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remodeling-container {
+
+}
+
+.remodeling-reach {
+    color: #c80001;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: .04rem;
+    font-weight: 100;
+}
+
+.remodeling-types,
+.remodeling-number {
+    width: 70vw;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    color:#4a4a4a;
+}
+
+.remodeling-number {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    color:#4a4a4a;
+}
+
+
+
 .contact-button {
     background-color: black;
     color: white;

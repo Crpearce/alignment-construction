@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -67,7 +71,6 @@ button {
   padding: 12px 18px;
   pointer-events: auto;
   position: relative;
-  text-align: center;
   touch-action: manipulation;
   vertical-align: top;
   border: 0;
