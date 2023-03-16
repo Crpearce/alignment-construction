@@ -1,7 +1,7 @@
 .form-wrapper {
     display:flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     margin: 50px;
 }
 
@@ -10,9 +10,18 @@
     flex-direction: column;
 }
 
+.email-us {
+    color: white;
+}
+
 input {
     margin: 5px;
     width:fit-content;
+    text-align: left;
+}
+
+.message {
+    text-align: left;
 }
 
 .send-email-button {

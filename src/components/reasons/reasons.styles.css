@@ -3,12 +3,10 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: auto;
 }
 
 .reasons-container {
     width: 80vw;
-    text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
@@ -40,7 +38,6 @@
 .reason-card {
     display: flex;
     justify-content: center;
-    text-align: center;
     border: .2rem solid #c80001;
     width: 40vw;
     height: 3vh;

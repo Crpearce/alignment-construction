@@ -27,7 +27,7 @@ const Form = () => {
   };
   return (
     <div className="form-wrapper">
-      <h2>Email Us</h2>
+      <h2 className="email-us">Email Us</h2>
       <form className="form-container" ref={form} onSubmit={sendEmail}>
         <input
           type="text"
@@ -47,7 +47,7 @@ const Form = () => {
           name="user_number"
           required
         ></input>
-        <textarea name="message" cols="30" rows="10"></textarea>
+        <textarea name="message" cols="30" rows="10" className="message"></textarea>
         <button className="send-email-button" type="submit">
           Send Message
         </button>
