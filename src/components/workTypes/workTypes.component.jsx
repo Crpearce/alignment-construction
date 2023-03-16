@@ -30,7 +30,7 @@ const WorkTypes = () => {
       </Link>
       <Link
         to='/structural'
-        className="structural-container"
+        className="structural-link-container"
         data-aos="fade-left"
         style={{
           backgroundImage: `url(${construction})`,
@@ -38,8 +38,8 @@ const WorkTypes = () => {
           backgroundSize: "cover",
         }}
       >
-        <h4 className="structural-header">STRUCTURAL SERVICES</h4>
-        <span className="structural-text">
+        <h4 className="structural-link-header">STRUCTURAL SERVICES</h4>
+        <span className="structural-link-text">
           YOU CAN COUNT ON US TO IMPROVE THE STRUCTURAL INTEGRITY OF YOUR
           PROPERTY.
         </span>

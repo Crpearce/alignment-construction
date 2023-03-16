@@ -38,8 +38,8 @@
 .reason-card {
     display: flex;
     justify-content: center;
-    border: .2rem solid #c80001;
-    width: 40vw;
+    border: .15rem solid #c80001;
+    width: 35vw;
     height: 3vh;
     padding:10px;
     contain: content;
