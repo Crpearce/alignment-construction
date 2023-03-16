@@ -3,8 +3,6 @@ import "./remodeling.styles.css";
 import RemodelingServices from "../../components/remodelingServices/remodelingServices.component";
 
 const Remodeling = () => {
-
-
   return (
     <section className="remodeling-wrapper">
       <div className="remodeling-container" >
