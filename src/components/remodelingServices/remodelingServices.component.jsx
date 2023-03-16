@@ -1,10 +1,18 @@
+import { useEffect } from "react";
 import basement from "../../assets/basementRemodel.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./remodelingServices.styles.css";
 
+
+
 const RemodelingServices = () => {
+    useEffect(() => {
+      AOS.init({ duration: 1250 });
+    }, []);
   return (
     <div className="remodeling-services-wrapper">
-      <div className="remodeling-services-container">
+      <div className="remodeling-services-container" data-aos="fade-right">
         <h2 className="services-header">SERVICES WE OFFER</h2>
         <p className="remodeling-details">
           Once we're done with our remodeling services, you'll love the way your
@@ -25,7 +33,7 @@ const RemodelingServices = () => {
           with Alignment Construction in Littleton, CO now.
         </p>
       </div>
-      <div className="remodeling-services-photo">
+      <div className="remodeling-services-photo" data-aos="fade-left">
         <img src={basement} alt='remodeled apartment basement'/>
       </div>
     </div>
