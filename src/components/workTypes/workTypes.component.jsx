@@ -15,7 +15,7 @@ const WorkTypes = () => {
     <div className="work-type-wrapper">
       <Link
         to='/remodeling'
-        className="remodeling-container"
+        className="remodeling-link-container"
         data-aos="fade-right"
         style={{
           backgroundImage: `url(${kitchen})`,
@@ -23,8 +23,8 @@ const WorkTypes = () => {
           backgroundSize: "cover",
         }}
       >
-        <h4 className="remodeling-header">REMODELING</h4>
-        <span className="remodeling-text">
+        <h4 className="remodeling-link-header">REMODELING</h4>
+        <span className="remodeling-link-text">
           IF YOU WANT TO UPDATE YOUR PLACE, HIRE OUR HOME REMODELING CONTRACTOR.
         </span>
       </Link>

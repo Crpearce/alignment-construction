@@ -1,19 +1,14 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import AOS from "aos";
 import "./remodeling.styles.css";
-import "aos/dist/aos.css";
 import RemodelingServices from "../../components/remodelingServices/remodelingServices.component";
 
 const Remodeling = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1250 });
-  }, []);
+
 
   return (
     <section className="remodeling-wrapper">
-      <div className="remodeling-container" data-aos="zoom-in">
-        <h2>READY TO UPDATE YOUR HOME?</h2>
+      <div className="remodeling-container" >
+        <h2 className="remodeling-ready">READY TO UPDATE YOUR HOME?</h2>
         <span className="remodeling-reach">
           {" "}
           TURN TO OUR HOME REMODELING CONTRACTOR TODAY!
@@ -37,7 +32,7 @@ const Remodeling = () => {
           have specific designs in mind, you can count on us to bring your
           vision to life.
         </p>
-        <Link>
+        <Link to='/contact'>
           <button className="contact-button">Contact Us</button>
         </Link>
       </div>
