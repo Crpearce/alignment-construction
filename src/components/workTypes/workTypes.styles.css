@@ -27,7 +27,7 @@
 }
 
 .remodeling-link-container:hover,
-.remodeling-link-container:hover .remodeling-header,
+.remodeling-link-container:hover .remodeling-link-header,
 .structural-container:hover,
 .structural-container:hover .structural-header {
     color: #c80001;
