@@ -11,9 +11,12 @@
     justify-content: center;
     width: 90vw;
     height: 45vh;
+    overflow: hidden;
 }
 
 .structural-services-container {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
     width: 70%;
 }
 
@@ -34,6 +37,7 @@
 
 .services-header {
     color: #c80001;
+    margin-top: 0;
 }
 
 .structural-pic {
