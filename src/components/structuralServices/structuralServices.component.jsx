@@ -15,7 +15,7 @@ const StructuralServices = () => {
 
   return (
     <div className="structural-services-wrapper">
-      <div className="structural-services-photos">
+      <div className="structural-services-photos" data-aos="zoom-in">
         <img
           src={beam1}
           alt="remodeled apartment basement"
@@ -32,8 +32,8 @@ const StructuralServices = () => {
           className="structural-pic"
         />
       </div>
-      <div className="structural-services-container" data-aos="fade-right">
-        <h2 className="services-header">SERVICES WE OFFER</h2>
+      <div className="structural-services-container">
+        <h2 className="services-header">STRUCTURAL SERVICES WE OFFER</h2>
         <p className="structural-details">
           We follow a thorough load-bearing beam installation process to ensure
           exceptional results. Contact us today for to schedule the following
@@ -46,8 +46,17 @@ const StructuralServices = () => {
           <li>Install quality materials that are built to last</li>
         </ul>
         <p className="structural-details">
-          Call ####### today to schedule load-bearing beam installations in
-          Littleton & Aurora, CO.
+          Call{" "}
+          <a
+            href="tel:(720)282-1210"
+            data-icon="A"
+            title="(720)282-1210"
+            className="contact-number"
+          >
+            (720) 282-1210
+          </a>{" "}
+          today to schedule load-bearing beam installations in Littleton &
+          Aurora, CO.
         </p>
       </div>
     </div>
