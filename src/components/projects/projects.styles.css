@@ -5,8 +5,8 @@
     width: 100%;
 }
 
-.additions-container,
-.concrete-container {
+.additions-link-container,
+.concrete-link-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +15,8 @@
     height: 50%;
 }
 
-.additions-title,
-.concrete-title {
+.additions-link-title,
+.concrete-link-title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.25em;
     font-weight: 800;
@@ -25,24 +25,24 @@
     margin: 1vh;
 }
 
-.additions-title,
-.additions-text,
-.concrete-title,
-.concrete-text {
+.additions-link-title,
+.additions-link-text,
+.concrete-link-title,
+.concrete-link-text {
     color: white;
     font-size: 2.95rem;
     letter-spacing: .15rem;
 }
 
-.additions-container:hover,
-.additions-container:hover .additions-title,
-.concrete-container:hover,
-.concrete-container:hover .concrete-title {
+.additions-link-container:hover,
+.additions-link-container:hover .additions-link-title,
+.concrete-link-container:hover,
+.concrete-link-container:hover .concrete-link-title {
     color: #c80001;
 }
 
-.concrete-text,
-.additions-text{
+.concrete-link-text,
+.additions-link-text{
     font-weight: 500;
     letter-spacing: .06rem;
     word-spacing: .2rem;

@@ -15,7 +15,7 @@ const Projects = () => {
     <div className="projects-wrapper">
       <Link
         to='/additions'
-        className="additions-container"
+        className="additions-link-container"
         data-aos="fade-up-right"
         data-aos-anchor-placement="bottom-bottom"
         style={{
@@ -24,14 +24,14 @@ const Projects = () => {
           backgroundSize: "cover",
         }}
       >
-        <span className="additions-title">ADDITIONS</span>
-        <span className="additions-text">
+        <span className="additions-link-title">ADDITIONS</span>
+        <span className="additions-link-text">
           BOOST THE SQUARE FOOTAGE OF YOUR HOME BY GETTING IN TOUCH WITH US NOW.
         </span>
       </Link>
       <Link
         to='/concrete'
-        className="concrete-container"
+        className="concrete-link-container"
         data-aos="fade-up-left"
         data-aos-anchor-placement="top-bottom"
         style={{
@@ -40,8 +40,8 @@ const Projects = () => {
           backgroundSize: "cover"
         }}
       >
-        <span className="concrete-title">CONCRETE</span>
-        <span className="concrete-text">
+        <span className="concrete-link-title">CONCRETE</span>
+        <span className="concrete-link-text">
           RELY ON OUR TEAM TO INSTALL CONCRETE DRIVEWAYS, FOUNDATIONS, AND
           PATIOS.
         </span>
