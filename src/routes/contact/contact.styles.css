@@ -40,5 +40,6 @@
 
 .contact-number:hover {
     font-size: 1rem;
+    transition: all 600ms ease;
 }
 
