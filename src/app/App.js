@@ -5,6 +5,7 @@ import Home from "../routes/home/home.component";
 import Contact from "../routes/contact/contact.component";
 import Remodeling from "../routes/remodeling/remodeling.component";
 import Structural from "../routes/structural/structural.component";
+import HomeAdditions from '../routes/homeAdditions/homeAdditions.component';
 import Footer from '../components/footer/footer.component';
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />}/>
         <Route path="/remodeling" element={<Remodeling />}/>
         <Route path="/structural" element={<Structural />}/>
+        <Route path="/additions" element={<HomeAdditions />}/>
       </Routes>
       <Footer />
     </>
