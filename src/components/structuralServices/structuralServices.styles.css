@@ -1,21 +1,27 @@
 .structural-services-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+}
+
+.structural-services-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 45vh;
 }
 
 .structural-services-container {
-    width: 40%;
+    width: 70%;
 }
+
 .structural-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-weight: 300;
-
     margin-left: 3vw;
     font-size:.8em;
 }
@@ -28,4 +34,15 @@
 
 .services-header {
     color: #c80001;
+}
+
+.structural-pic {
+    position: inherit;
+    margin:2vh;
+    width: 25vw;
+}
+
+.structural-pic:hover {
+    transform: scale(1.3);
+    transition: transform .75s ease;
 }
