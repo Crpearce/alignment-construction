@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div className="projects-wrapper">
       <Link
-        to='/additions'
+        to='/home-additions'
         className="additions-link-container"
         data-aos="fade-up-right"
         data-aos-anchor-placement="bottom-bottom"
