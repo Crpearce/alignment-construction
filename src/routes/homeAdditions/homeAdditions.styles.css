@@ -1,0 +1,14 @@
+.home-additions-wrapper {
+    display: flex;
+}
+
+.home-images-container,
+.home-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-details-container {
+    color: white;
+    background-color: #4a4a4a;
+}

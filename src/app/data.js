@@ -4,7 +4,7 @@ export const sections = [
     {id: 3, link: 'structural', title: 'STRUCTURAL SERVICES'},
     {id: 4, link: 'remodeling', title: 'REMODELING'},
     {id: 5, link: 'concrete', title: 'CONCRETE'},
-    {id: 6, link: 'homeAdditions', title: 'HOME ADDITIONS'},
+    {id: 6, link: 'home-additions', title: 'HOME ADDITIONS'},
     {id: 7, link: 'gallery', title: 'GALLERY'},
     {id: 8, link: 'areas', title: 'SERVICE AREAS'},
     {id: 9, link: 'reviews', title: 'REVIEWS'},
