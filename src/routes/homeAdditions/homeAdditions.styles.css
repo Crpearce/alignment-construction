@@ -1,14 +1,42 @@
 .home-additions-wrapper {
     display: flex;
+    height: 50vh;
 }
 
 .home-images-container,
 .home-details-container {
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+.home-images-container {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219)
 }
 
 .home-details-container {
+    justify-content: space-between;
     color: white;
     background-color: #4a4a4a;
+    padding: 2rem;
+}
+
+.home-additions-header {
+    font-size: 3rem;
+    display: flex;
+    color: white;
+    font-weight: 300;
+}
+
+.home-additions-text {
+    width: 85%;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.addition-image {
+    width: 35vw;
+    z-index: 1;
 }
