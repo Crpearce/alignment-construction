@@ -1,6 +1,6 @@
 .home-additions-wrapper {
     display: flex;
-    height: 50vh;
+    height: 65vh;
 }
 
 .home-images-container,
@@ -13,14 +13,15 @@
 .home-images-container {
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 219, 219)
+    background-color: rgb(219, 219, 219);
+    overflow: scroll;
 }
 
 .home-details-container {
     justify-content: space-between;
     color: white;
     background-color: #4a4a4a;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .home-additions-header {
@@ -38,5 +39,42 @@
 
 .addition-image {
     width: 35vw;
-    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.addition-image:hover {
+    width: 40vw;
+    transition: all 600ms ease;
+}
+
+.home-additions-types-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: white;
+}
+
+.popular-addition-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 40%;
+    flex-direction: column;
+}
+
+.popular-additions-header {
+    font-size: 1.75rem;
+    display: flex;
+    font-weight: 300;
+    text-align: left;
+}
+
+.popular-additions-text {
+    width: 85%;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.popular-addition-options-container {
+    /* width: 65%; */
 }
