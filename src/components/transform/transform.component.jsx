@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Transform = () => {
   useEffect(() => {
-    AOS.init({ duration: 1250 });
+    AOS.init({ duration: 1500 });
   }, []);
 
   return (
@@ -23,13 +23,13 @@ const Transform = () => {
         basement, we have you covered.
       </p>
       <a
-            href="tel:(720)282-1210"
-            data-icon="A"
-            title="(720)282-1210"
-            className="contact-number"
-          >
-           Call (720) 282-1210
-          </a>
+        href="tel:(720)282-1210"
+        data-icon="A"
+        title="(720)282-1210"
+        className="contact-number"
+      >
+        Call (720) 282-1210
+      </a>
     </div>
   );
 };
