@@ -43,10 +43,20 @@ const HomeAdditions = () => {
       </div>
       <div className="home-additions-types-container">
         <div className="popular-addition-container">
-          <h2 className="popular-additions-header">POPULAR HOME ADDITIONS FOR ANY BUDGET</h2>
-          <p className="popular-additions-text">With over 15 years of experience, we're the local company to call for new home additions. We'll increase the size of your home by:</p>
+          <h2 className="popular-additions-header">
+            POPULAR HOME ADDITIONS FOR ANY BUDGET
+          </h2>
+          <p className="popular-additions-text">
+            With over 15 years of experience, we're the local company to call
+            for new home additions. We'll increase the size of your home by:
+          </p>
         </div>
-        <div className="popular-addition-options-container">testing</div>
+        <ul className="popular-addition-options-container">
+          <li className="additions-list">Finishing your basement or attic</li>
+          <li className="additions-list">Adding a new room to your home</li>
+          <li className="additions-list">Converting your garage to a functional living space</li>
+          <li className="additions-list">Transforming your room into an accessory dwelling unit (ADU)</li>
+        </ul>
       </div>
     </>
   );
