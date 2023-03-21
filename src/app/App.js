@@ -6,6 +6,7 @@ import Contact from "../routes/contact/contact.component";
 import Remodeling from "../routes/remodeling/remodeling.component";
 import Structural from "../routes/structural/structural.component";
 import HomeAdditions from '../routes/homeAdditions/homeAdditions.component';
+import Concrete from "../routes/concrete/concrete.component";
 import Footer from '../components/footer/footer.component';
 import "./App.css";
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/remodeling" element={<Remodeling />}/>
         <Route path="/structural" element={<Structural />}/>
         <Route path="/home-additions" element={<HomeAdditions />}/>
+        <Route path="/concrete" element={<Concrete />}/>
+
       </Routes>
       <Footer />
     </>

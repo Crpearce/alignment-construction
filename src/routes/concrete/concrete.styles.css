@@ -1,0 +1,8 @@
+.concrete-image {
+    width: 30vw;
+}
+
+.concrete-image:hover {
+    width: 35vw;
+    transition: all 600ms ease;
+}

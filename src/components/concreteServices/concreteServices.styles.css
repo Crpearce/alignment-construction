@@ -1,4 +1,4 @@
-.concrete-section-container {
+.concrete-services-link-container {
     display: flex;
     flex-direction: column;
     height: 65vh;
@@ -6,12 +6,12 @@
     justify-content: center;
 }
 
-.concrete-header {
+.concrete-services-link-header {
     font-size: 3em;
     margin: 0;
 }
 
-.concrete-schedule {
+.concrete-services-link-schedule {
     font-family: 'Oswald', sans-serif;
     font-size: 1.35em;
     letter-spacing: .07rem;
@@ -19,12 +19,12 @@
     color: white;
 }
 
-.concrete-button {
+.concrete-services-link-button {
     background-color: #c80001;
     color: white;
 }
 
-.concrete-button:hover {
+.concrete-services-link-button:hover {
     color: #c80001;
     background-color: black;
     font-weight: 900;
