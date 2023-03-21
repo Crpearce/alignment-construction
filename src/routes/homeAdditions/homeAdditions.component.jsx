@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import kitchenAddition from "../../assets/kitchenAddition.png";
 import wood from "../../assets/wood.png";
+import addition1 from "../../assets/addition1.png";
+import addition2 from "../../assets/addition2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./homeAdditions.styles.css";
@@ -54,9 +56,32 @@ const HomeAdditions = () => {
         <ul className="popular-addition-options-container">
           <li className="additions-list">Finishing your basement or attic</li>
           <li className="additions-list">Adding a new room to your home</li>
-          <li className="additions-list">Converting your garage to a functional living space</li>
-          <li className="additions-list">Transforming your room into an accessory dwelling unit (ADU)</li>
+          <li className="additions-list">
+            Converting your garage to a functional living space
+          </li>
+          <li className="additions-list">
+            Transforming your room into an accessory dwelling unit (ADU)
+          </li>
         </ul>
+      </div>
+      <div className="room-addition-container">
+        <img
+          src={addition1}
+          alt="basement-addition"
+          className="room-addition-image"
+        />
+        <p className="room-addition-text" data-aos="fade-up">
+          When it comes to room additions, we can tackle any job you throw our
+          way. Want to add on a Bathroom, Living room, Bedroom, or Home theater?
+          Our team will enhance the appearance, value and functionality
+          of your property. If you're searching for room addition services in
+          Littleton, CO, reach out now.
+        </p>
+        <img
+          src={addition2}
+          alt="garage-addition"
+          className="room-addition-image"
+        />
       </div>
     </>
   );
