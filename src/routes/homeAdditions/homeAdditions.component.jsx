@@ -70,13 +70,16 @@ const HomeAdditions = () => {
           alt="basement-addition"
           className="room-addition-image"
         />
-        <p className="room-addition-text" data-aos="fade-up">
-          When it comes to room additions, we can tackle any job you throw our
-          way. Want to add on a Bathroom, Living room, Bedroom, or Home theater?
-          Our team will enhance the appearance, value and functionality
-          of your property. If you're searching for room addition services in
-          Littleton, CO, reach out now.
-        </p>
+        <div className="room-addition-wrapper">
+          <h2 className="room-additions-header">ROOM ADDITIONS</h2>
+          <p className="room-addition-text" data-aos="fade-up">
+            When it comes to room additions, we can tackle any job you throw our
+            way. Want to add on a Bathroom, Living room, Bedroom, or Home
+            theater? Our team will enhance the appearance, value and
+            functionality of your property. If you're searching for room
+            addition services in Littleton, CO, reach out now.
+          </p>
+        </div>
         <img
           src={addition2}
           alt="garage-addition"
