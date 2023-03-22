@@ -1,8 +1,32 @@
 .concrete-image {
-    width: 30vw;
+    width: 32vw;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
 }
 
 .concrete-image:hover {
-    width: 33vw;
-    transition: all 600ms ease;
+    width: 36vw;
+    transition: all 500ms ease;
+    padding: 0;
 }
+
+.concrete-contact-button {
+    text-align: left;
+    margin:0
+}
+
+.concrete-type-driveway,
+.concrete-type-retaining {
+    background-color: rgb(219, 219, 219);
+    border-top: .15rem solid;
+    border-bottom: .15rem solid;
+}
+
+.concrete-additions-header1 {
+    color: black;
+}
+
+.concrete-additions-header2 {
+    color:#c80001
+}
+

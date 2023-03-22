@@ -1,8 +1,15 @@
-import "./concrete.styles.css";
-import concrete1 from "../../assets/concrete.png";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import walkway from "../../assets/walkway.png";
+import AOS from "aos";
+import "./concrete.styles.css";
+import "aos/dist/aos.css";
 
 const Concrete = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1250 });
+  }, []);
+
   return (
     <>
       <div className="home-additions-wrapper">
@@ -12,17 +19,18 @@ const Concrete = () => {
           </h4>
           <p className="home-additions-text" data-aos="fade-right">
             Looking for a new retaining wall, concrete patio, sidewalk,
-            foundation, firepit or walkway? You can look to us for both
-            commercial and residential projects. Reach out now for concrete
+            foundation, firepit, walkway or driveway? You can look to us for
+            both commercial and residential projects. Reach out now for concrete
             driveway installation in Littleton & Aurora, CO.
           </p>
+          <Link to="/contact" className="concrete-contact-button">
+            <button>Contact Us</button>
+          </Link>
         </div>
         <div
           className="home-images-container"
           style={{
-            backgroundImage: `url(${concrete1})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
+            backgroundColor: "#4a4a4a",
           }}
         >
           <img
@@ -45,38 +53,27 @@ const Concrete = () => {
         </div>
         <ul className="popular-addition-options-container">
           <li className="additions-list">Retaining walls</li>
-          <li className="additions-list">
-            Concrete patio to boost your outdoor living space
-          </li>
+          <li className="additions-list">Concrete patio to boost your outdoor living space</li>
           <li className="additions-list">Sidewalks</li>
-          <li className="additions-list">
-            Concrete foundation to start your next building project
-          </li>
-          <li className="additions-list">
-            Concrete walkway to enhance your home's appearance
-          </li>
+          <li className="additions-list">Concrete foundation to start your next building project</li>
+          <li className="additions-list">Concrete walkway to enhance your home's appearance</li>
           <li className="additions-list">Fire Pits</li>
         </ul>
       </div>
-      {/* <div className="room-addition-container">
-          <img
-            src={addition1}
-            alt="basement-addition"
-            className="room-addition-image"
-          />
-          <p className="room-addition-text" data-aos="fade-up">
-            When it comes to room additions, we can tackle any job you throw our
-            way. Want to add on a Bathroom, Living room, Bedroom, or Home theater?
-            Our team will enhance the appearance, value and functionality
-            of your property. If you're searching for room addition services in
-            Littleton, CO, reach out now.
-          </p>
-          <img
-            src={addition2}
-            alt="garage-addition"
-            className="room-addition-image"
-          />
-        </div> */}
+      <div className="concrete-project-types-container">
+        <div className="concrete-type-driveway">
+          <h2 className="concrete-additions-header1">DRIVEWAYS</h2>
+        </div>
+        <div className="concrete-type-patio">
+          <h2 className="concrete-additions-header2">PATIOS</h2>
+        </div>
+        <div className="concrete-type-retaining">
+          <h2 className="concrete-additions-header1">RETAINING WALLS</h2>
+        </div>
+        <div className="concrete-type-foundation">
+          <h2 className="concrete-additions-header2">FOUNDATIONS</h2>
+        </div>
+      </div>
     </>
   );
 };
