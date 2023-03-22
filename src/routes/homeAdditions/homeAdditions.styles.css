@@ -82,8 +82,10 @@
     flex-direction: column;
     list-style-type: square;
     justify-content: space-evenly;
-    align-items: flex-start;
+    margin-left: 5vw;
     margin-right: 3vw;
+    width: 45%
+
 }
 
 .additions-list {
