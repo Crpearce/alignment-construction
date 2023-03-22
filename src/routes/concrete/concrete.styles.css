@@ -23,10 +23,33 @@
 }
 
 .concrete-additions-header1 {
+    font-size: 2.15rem;
+    margin-bottom: 0;
     color: black;
 }
 
 .concrete-additions-header2 {
+    font-size: 2.15rem;
+    margin-bottom: 0;
     color:#c80001
+}
+
+.concrete-additions-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.concrete-additions-info {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 50%;
+    line-height: 1.75;
+    font-size: 1.2rem;
+}
+
+.concrete-additions-photo{
+    width: 27vw;
 }
 
