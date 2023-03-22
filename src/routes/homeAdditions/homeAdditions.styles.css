@@ -1,6 +1,6 @@
 .home-additions-wrapper {
     display: flex;
-    height: 60vh;
+    height: 65vh;
 }
 
 .home-images-container,
@@ -86,14 +86,13 @@
     margin-left: 5vw;
     margin-right: 3vw;
     width: 45%
-
 }
 
 .additions-list {
     text-align: left;
     font-family: 'Montserrat',Helvetica,Arial,sans-serif;
     font-size: 1.3rem;
-    position:relative;
+    /* position:relative; */
 }
 
 .additions-list:hover {
