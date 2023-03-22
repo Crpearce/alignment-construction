@@ -38,6 +38,21 @@ h4 {
   margin: 1vh;
 }
 
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: .05rem;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: .05rem;
+  margin-bottom: 0;
+  color: #c80001;
+}
+
 a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -82,3 +97,4 @@ button:hover {
   background-color: #c80001;
   box-shadow: rgba(253, 76, 0, 0.5) 0 6px 8px;
 }
+
