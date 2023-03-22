@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Concrete = () => {
   useEffect(() => {
-    AOS.init({ duration: 1250 });
+    AOS.init({ duration: 1500 });
   }, []);
 
   return (
@@ -23,7 +23,7 @@ const Concrete = () => {
             both commercial and residential projects. Reach out now for concrete
             driveway installation in Littleton & Aurora, CO.
           </p>
-          <Link to="/contact" className="concrete-contact-button">
+          <Link to="/contact" className="concrete-contact-button" data-aos="fade-right">
             <button>Contact Us</button>
           </Link>
         </div>
@@ -52,26 +52,26 @@ const Concrete = () => {
           </p>
         </div>
         <ul className="popular-addition-options-container">
-          <li className="additions-list">Retaining walls</li>
-          <li className="additions-list">Concrete patio to boost your outdoor living space</li>
-          <li className="additions-list">Sidewalks</li>
-          <li className="additions-list">Concrete foundation to start your next building project</li>
-          <li className="additions-list">Concrete walkway to enhance your home's appearance</li>
-          <li className="additions-list">Fire Pits</li>
+          <li className="additions-list" data-aos="fade-left">Retaining walls</li>
+          <li className="additions-list" data-aos="fade-left">Concrete patio to boost your outdoor living space</li>
+          <li className="additions-list" data-aos="fade-left">Sidewalks</li>
+          <li className="additions-list" data-aos="fade-left">Concrete foundation to start your next building project</li>
+          <li className="additions-list" data-aos="fade-left">Concrete walkway to enhance your home's appearance</li>
+          <li className="additions-list" data-aos="fade-left">Fire Pits</li>
         </ul>
       </div>
       <div className="concrete-project-types-container">
         <div className="concrete-type-driveway">
-          <h2 className="concrete-additions-header1">DRIVEWAYS</h2>
+          <h2 className="concrete-additions-header1" data-aos="fade-in">DRIVEWAYS</h2>
         </div>
         <div className="concrete-type-patio">
-          <h2 className="concrete-additions-header2">PATIOS</h2>
+          <h2 className="concrete-additions-header2" data-aos="fade-in">PATIOS</h2>
         </div>
         <div className="concrete-type-retaining">
-          <h2 className="concrete-additions-header1">RETAINING WALLS</h2>
+          <h2 className="concrete-additions-header1" data-aos="fade-in">RETAINING WALLS</h2>
         </div>
         <div className="concrete-type-foundation">
-          <h2 className="concrete-additions-header2">FOUNDATIONS</h2>
+          <h2 className="concrete-additions-header2" data-aos="fade-in">FOUNDATIONS</h2>
         </div>
       </div>
     </>
