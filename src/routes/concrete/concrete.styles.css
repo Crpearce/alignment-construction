@@ -1,11 +1,11 @@
 .concrete-image {
-    width: 34vw;
+    width: 33vw;
     padding: 20px;
     background-color: rgb(219, 219, 219);
 }
 
 .concrete-image:hover {
-    width: 38vw;
+    width: 36vw;
     transition: all 500ms ease;
     padding: 5px;
 }
