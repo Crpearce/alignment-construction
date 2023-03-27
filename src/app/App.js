@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { sections, reasons } from "./data";
+import { sections, reasons, cities } from "./data";
 import Navigation from "../components/navigation/navigation.component";
 import Home from "../routes/home/home.component";
 import About from "../routes/about/about.component";
@@ -8,6 +8,7 @@ import Remodeling from "../routes/remodeling/remodeling.component";
 import Structural from "../routes/structural/structural.component";
 import HomeAdditions from "../routes/homeAdditions/homeAdditions.component";
 import Concrete from "../routes/concrete/concrete.component";
+import Areas from "../routes/areas/areas.component";
 import Footer from "../components/footer/footer.component";
 import "./App.css";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/remodeling" element={<Remodeling />} />
         <Route path="/concrete" element={<Concrete />} />
         <Route path="/home-additions" element={<HomeAdditions />} />
+        <Route path="/areas" element={<Areas serviceAreas={cities}/>} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
