@@ -26,7 +26,7 @@ const Transform = () => {
         href="tel:(720)282-1210"
         data-icon="A"
         title="(720)282-1210"
-        className="contact-number"
+        className="transform-link-number"
       >
         Call (720) 282-1210
       </a>

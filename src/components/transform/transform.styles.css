@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:40vh;
+    height:45vh;
     background-color: white;
 }
 
@@ -15,9 +15,7 @@
     font-weight: 100;
 }
 
-.transform-types {
-    text-align: left;
-}
+
 .transform-types,
 .transform-number {
     width: 70vw;
@@ -26,9 +24,14 @@
     color:#4a4a4a;
 }
 
-.transform-number {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
+.transform-link-number {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 800;
     color:#4a4a4a;
+}
+
+.transform-link-number:hover {
+    font-size: 1.15rem;
+    color:#c80001;
+    text-decoration: underline;
 }

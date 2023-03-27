@@ -1,0 +1,30 @@
+.serve-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #c80001;
+    width: 100%;
+    height: 40vh;
+}
+
+.serve-header {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.satisfaction {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:white;
+}
+
+.grey-button {
+    font-size: 1rem;
+}
+
+.grey-button:hover {
+    background-color: black;
+    color:white;
+}

@@ -1,0 +1,22 @@
+.home-advisor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.home-advisor-logo {
+    width: 15vw;
+    padding-top:3vh;
+}
+
+.home-advisor-header {
+    font-size: 2.25rem;
+}
+
+.home-advisor-text {
+    width: 70vw;
+    font-size: 1.25rem;
+    font-weight: 100;
+    color:#4a4a4a;
+}

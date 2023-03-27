@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
+import HomeAdvisor from "../../components/homeAdvisor/homeAdvisor.component";
+import ServeBar from "../../components/serveBar/serveBar.component";
 import "./about.styles.css";
 
 const About = () => {
   return (
-    <section className="about--wrapper">
-      <div className="about--container">
-        <h2 className="about--ready">YOUR TRUSTED LOCAL CONTRACTOR</h2>
-        <span className="about--reach">
-          {" "}
-          TURN TO OUR HOME REMODELING CONTRACTOR TODAY!
-        </span>
+    <section className="about-wrapper">
+      <div className="about-container">
+        <h2 className="about-ready">
+          TURN TO YOUR TRUSTED, LOCAL CONTRACTOR TODAY!
+        </h2>
         <p className="about-types">
           With over 10 years of experience, Alignment Construction LLC and our
           team of highly skilled professionals strive for perfection and
@@ -19,9 +19,11 @@ const About = () => {
           competitive prices and premium materials.
         </p>
         <Link to="/contact">
-          <button className="contact-button">Contact Us</button>
+          <button className="concrete-services-link-button">Contact Us</button>
         </Link>
       </div>
+      <HomeAdvisor />
+      <ServeBar />
     </section>
   );
 };
