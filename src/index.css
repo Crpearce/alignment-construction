@@ -18,20 +18,23 @@ html {
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 1.95em;
   letter-spacing: .05rem;
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 3.25em;
   letter-spacing: .05rem;
   color: white;
 }
 
 h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 3.25em;
   letter-spacing: .05rem;
   color: #c80001;
@@ -39,14 +42,16 @@ h4 {
 }
 
 h5 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 1.5em;
   letter-spacing: .05rem;
   margin-bottom: 0;
 }
 
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 1.5em;
   letter-spacing: .05rem;
   margin-bottom: 0;
@@ -54,7 +59,8 @@ h6 {
 }
 
 a{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 100;
 }
 
@@ -63,7 +69,8 @@ img {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight:bolder;
   font-size: 1.25em;
 }
