@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import HomeAdvisor from "../../components/homeAdvisor/homeAdvisor.component";
 import ServeBar from "../../components/serveBar/serveBar.component";
+import Specialization from "../../components/specialization/specialization.component";
 import "./about.styles.css";
 
 const About = () => {
   return (
     <section className="about-wrapper">
+      <HomeAdvisor />
       <div className="about-container">
         <h2 className="about-ready">
           TURN TO YOUR TRUSTED, LOCAL CONTRACTOR TODAY!
@@ -22,7 +24,8 @@ const About = () => {
           <button className="concrete-services-link-button">Contact Us</button>
         </Link>
       </div>
-      <HomeAdvisor />
+      {/* <HomeAdvisor /> */}
+      <Specialization />
       <ServeBar />
     </section>
   );

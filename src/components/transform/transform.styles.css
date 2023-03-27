@@ -15,7 +15,6 @@
     font-weight: 100;
 }
 
-
 .transform-types,
 .transform-number {
     width: 70vw;
@@ -25,13 +24,15 @@
 }
 
 .transform-link-number {
+    font-family: 'Oswald', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 800;
+    letter-spacing: .05rem;
     color:#4a4a4a;
 }
 
 .transform-link-number:hover {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color:#c80001;
     text-decoration: underline;
 }

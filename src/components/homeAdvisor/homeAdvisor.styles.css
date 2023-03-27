@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 2vh;
 }
 
 .home-advisor-logo {
@@ -19,4 +20,19 @@
     font-size: 1.25rem;
     font-weight: 100;
     color:#4a4a4a;
+}
+
+.advisor-icon,
+.google-icon,
+.yelp-icon {
+    color: black;
+    font-size: 3rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.advisor-icon:hover,
+.google-icon:hover,
+.yelp-icon:hover {
+    color: #c80001;
 }
