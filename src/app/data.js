@@ -18,3 +18,30 @@ export const reasons = [
     {id: 4, reason: 'Always maintain excellent communication'},
 ]
 
+export const cities = [
+    {id: 1, city: 'Arvada, CO'},
+    {id: 2, city: 'Aurora, CO'},
+    {id: 3, city: 'Brighton, CO'},
+    {id: 4, city: 'Broomfield, CO'},
+    {id: 5, city: 'Casle Pines, CO'},
+    {id: 6, city: 'Castle Rock, CO'},
+    {id: 7, city: 'Centennial, CO'},
+    {id: 8, city: 'Denver, CO'},
+    {id: 9, city: 'Elbert, CO'},
+    {id: 10, city: 'Elizabeth, CO'},
+    {id: 11, city: 'Englewood, CO'},
+    {id: 12, city: 'Golden, CO'},
+    {id: 13, city: 'Greenwood Village, CO'},
+    {id: 14, city: 'Highlands Ranch, CO'},
+    {id: 15, city: 'Lakewood, CO'},
+    {id: 16, city: 'Littleton, CO'},
+    {id: 17, city: 'Parker, CO'},
+    {id: 18, city: 'Thorton, CO'},
+    {id: 19, city: 'Westminster, CO'},
+    {id: 20, city: 'Wheat Ridge, CO'},
+
+
+
+
+]
+
