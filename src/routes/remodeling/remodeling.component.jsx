@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import "./remodeling.styles.css";
+import { useEffect } from "react";
 import RemodelingServices from "../../components/remodelingServices/remodelingServices.component";
 
 const Remodeling = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="remodeling-wrapper">
       <div className="remodeling-container" >

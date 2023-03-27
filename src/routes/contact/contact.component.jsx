@@ -1,8 +1,12 @@
 import Hours from "../../components/hours/hours.component";
 import Form from "../../components/form/form.component";
+import { useEffect } from "react";
 import "./contact.styles.css";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="contact-wrapper">
       <div className="contact-details-container">

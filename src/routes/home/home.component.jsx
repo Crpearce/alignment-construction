@@ -6,10 +6,13 @@ import Transform from '../../components/transform/transform.component';
 import ConcreteServices from '../../components/concreteServices/concreteServices.component';
 import Hours from '../../components/hours/hours.component';
 import './home.styles.css';
+import { useEffect } from 'react';
 
 
 const Home = ({ justification }) => {
-    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <section className='home-container'>
             <Greeting />

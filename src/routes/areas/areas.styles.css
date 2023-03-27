@@ -29,7 +29,7 @@
 .service-areas-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 25px;
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 4vw;

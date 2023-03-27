@@ -1,7 +1,11 @@
 import StructuralServices from '../../components/structuralServices/structuralServices.component';
 import './structural.styles.css';
+import { useEffect } from 'react';
 
 const Structural = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="structural-wrapper">
       <div className="structural-container">

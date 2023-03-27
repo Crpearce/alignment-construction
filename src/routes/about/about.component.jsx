@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import HomeAdvisor from "../../components/homeAdvisor/homeAdvisor.component";
 import ServeBar from "../../components/serveBar/serveBar.component";
 import Specialization from "../../components/specialization/specialization.component";
 import "./about.styles.css";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="about-wrapper">
       <HomeAdvisor />
@@ -24,7 +28,6 @@ const About = () => {
           <button className="concrete-services-link-button">Contact Us</button>
         </Link>
       </div>
-      {/* <HomeAdvisor /> */}
       <Specialization />
       <ServeBar />
     </section>
