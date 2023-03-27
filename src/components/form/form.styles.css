@@ -10,10 +10,6 @@
     flex-direction: column;
 }
 
-.email-us {
-    color: white;
-}
-
 input {
     margin: 5px;
     width:fit-content;

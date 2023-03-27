@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 html {
@@ -20,14 +21,14 @@ html {
 h2 {
   font-family: 'Lato', sans-serif;
   /* font-family: 'Oswald', sans-serif; */
-  font-size: 1.95em;
+  font-size: 1.8em;
   letter-spacing: .05rem;
 }
 
 h3 {
   font-family: 'Lato', sans-serif;
   /* font-family: 'Oswald', sans-serif; */
-  font-size: 3.25em;
+  font-size: 2.85em;
   letter-spacing: .05rem;
   color: white;
 }
@@ -35,7 +36,7 @@ h3 {
 h4 {
   font-family: 'Lato', sans-serif;
   /* font-family: 'Oswald', sans-serif; */
-  font-size: 3.25em;
+  font-size: 2.75em;
   letter-spacing: .05rem;
   color: #c80001;
   margin: 1vh;

@@ -1,5 +1,5 @@
 .home-container {
-    overflow: scroll;
+    overflow: hidden;
     background-color: white;
     display: flex;
     flex-direction: column;
