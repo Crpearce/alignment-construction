@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 const Concrete = () => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
+    window.scrollTo(0, 0);
   }, []);
 
   return (

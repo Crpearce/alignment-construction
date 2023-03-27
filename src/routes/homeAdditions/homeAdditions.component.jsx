@@ -10,6 +10,7 @@ import "./homeAdditions.styles.css";
 const HomeAdditions = () => {
   useEffect(() => {
     AOS.init({ duration: 1250 });
+    window.scrollTo(0, 0);
   }, []);
 
   return (

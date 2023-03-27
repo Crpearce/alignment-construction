@@ -39,9 +39,15 @@ export const cities = [
     {id: 18, city: 'Thorton, CO'},
     {id: 19, city: 'Westminster, CO'},
     {id: 20, city: 'Wheat Ridge, CO'},
+]
 
-
-
+export const reviews = [
+    {id: 1, name: '', review:''},
+    {id: 2, name: '', review:''},
+    {id: 3, name: '', review:''},
+    {id: 4, name: '', review:''},
+    {id: 5, name: '', review:''},
+    {id: 6, name: '', review:''},
 
 ]
 
