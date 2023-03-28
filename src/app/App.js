@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { sections, reasons, cities } from "./data";
 import Navigation from "../components/navigation/navigation.component";
+import Hamburger from "../components/hamburger/hamburger.component";
 import Home from "../routes/home/home.component";
 import About from "../routes/about/about.component";
 import Contact from "../routes/contact/contact.component";
@@ -13,9 +15,25 @@ import Footer from "../components/footer/footer.component";
 import "./App.css";
 
 function App() {
+  const [windowDimension, setWindowDimension] = useState(null);
+
+  useEffect(() => {
+    setWindowDimension(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const isDesktop = windowDimension > 1024;
+  
   return (
     <>
-      <Navigation tabs={sections} />
+      {isDesktop ? <Navigation tabs={sections} /> : <Hamburger />}
       <Routes className="App">
         <Route path="/" element={<Home justification={reasons} />} />
         <Route path="/about" element={<About />} />
@@ -23,7 +41,7 @@ function App() {
         <Route path="/remodeling" element={<Remodeling />} />
         <Route path="/concrete" element={<Concrete />} />
         <Route path="/home-additions" element={<HomeAdditions />} />
-        <Route path="/areas" element={<Areas serviceAreas={cities}/>} />
+        <Route path="/areas" element={<Areas serviceAreas={cities} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
