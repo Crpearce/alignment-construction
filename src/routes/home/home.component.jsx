@@ -16,10 +16,10 @@ const Home = ({ justification }) => {
     return (
         <section className='home-container'>
             <Greeting />
+            <Transform />
             <WorkTypes />
             <Reasons reasons={justification}/>
             <Projects />
-            <Transform />
             <ConcreteServices />
             <Hours />
         </section>
