@@ -22,8 +22,6 @@ const Greeting = () => {
         backgroundImage: `url(${homeBg})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        // backgroundSize: "cover",
-        // width: "100%",
       }}
     >
       <img
