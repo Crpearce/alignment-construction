@@ -15,11 +15,16 @@
 .trust {
     margin-top: 5vh;
     margin-bottom: 0vh;
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
 }
 
 .intro {
-    color: lightgray;
-    font-size: 1.5rem;
+    color: rgb(219, 219, 219);
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: .07rem;
 }
 
 .greeting-container:hover .intro {
