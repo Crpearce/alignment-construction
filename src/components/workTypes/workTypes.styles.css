@@ -16,6 +16,7 @@
 .remodeling-link-header,
 .structural-link-header{
     color: white;
+    font-size: 2.65rem;
 }
 
 .remodeling-link-text,
@@ -31,4 +32,6 @@
 .structural-link-container:hover,
 .structural-link-container:hover .structural-link-header {
     color: #c80001;
+    transform: scale(1.1);
+    transition: transform .75s ease;
 }
