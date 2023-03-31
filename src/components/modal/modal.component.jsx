@@ -5,17 +5,17 @@ const Modal = ({ hamLinks, hideNavHandler }) => {
   return (
     <div className="modal-container">
       {hamLinks.map((category) => (
-        <li key={category.id} className="nav-links">
+        <li key={category.id} className="ham-links">
           <NavLink
             onClick={hideNavHandler}
-            className="section-tab"
+            className="ham-tab"
             to={`/${category.link}`}
             style={{
               textDecoration: "none",
               color: "white",
             }}
           >
-            <span className="section-tab">{category.title}</span>
+            <span className="ham-tab">{category.title}</span>
           </NavLink>
         </li>
       ))}
