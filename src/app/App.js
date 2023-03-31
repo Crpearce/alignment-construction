@@ -35,7 +35,7 @@ function App() {
   
   return (
     <>
-      {isDesktop ? <Navigation tabs={sections} /> : <Hamburger />}
+      {isDesktop ? <Navigation tabs={sections} /> : <Hamburger tabs={sections}/>}
       <Routes className="App">
         <Route path="/" element={<Home justification={reasons} />} />
         <Route path="/about" element={<About />} />

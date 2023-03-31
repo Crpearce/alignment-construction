@@ -1,23 +1,33 @@
 import "./hamburger.styles.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import Specialization from "../specialization/specialization.component";
+import Modal from "../modal/modal.component";
 
-const Hamburger = () => {
+const Hamburger = ({ tabs }) => {
   const [hamburgerMenu, setHamburgerMenu] = useState(null);
 
   const showNavHandler = () => {
     setHamburgerMenu(true);
   };
 
+  const hideNavHandler = () => {
+    setHamburgerMenu(false);
+  };
+
   return (
-    <section className="hamburger-container">
+    <>
       {hamburgerMenu === true ? (
-        <Specialization />
+        <Modal hamLinks={tabs} hideNavHandler={hideNavHandler}/>
       ) : (
-        <GiHamburgerMenu className="hamburger-icon" onClick={showNavHandler} />
+        <section className="hamburger-container">
+          <GiHamburgerMenu
+            className="hamburger-icon"
+            onClick={showNavHandler}
+          />
+          )
+        </section>
       )}
-    </section>
+    </>
   );
 };
 
