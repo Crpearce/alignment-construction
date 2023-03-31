@@ -1,4 +1,5 @@
 import StructuralServices from '../../components/structuralServices/structuralServices.component';
+import Banner from '../../components/banner/banner.component';
 import './structural.styles.css';
 import { useEffect } from 'react';
 
@@ -8,6 +9,7 @@ const Structural = () => {
   }, []);
   return (
     <section className="structural-wrapper">
+      <Banner sectionName='Structural Services'/>
       <div className="structural-container">
         <h2 className="structural-ready">
           LET THE EXPERTS INSTALL YOUR LOAD-BEARING WALL

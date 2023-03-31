@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Banner from "../../components/banner/banner.component";
 import "./remodeling.styles.css";
 import { useEffect } from "react";
 import RemodelingServices from "../../components/remodelingServices/remodelingServices.component";
@@ -9,6 +10,7 @@ const Remodeling = () => {
   }, []);
   return (
     <section className="remodeling-wrapper">
+      <Banner sectionName='Remodeling'/>
       <div className="remodeling-container" >
         <h2 className="remodeling-ready">READY TO UPDATE YOUR HOME?</h2>
         <span className="remodeling-reach">
