@@ -1,4 +1,5 @@
 .hours-container {
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +25,7 @@
 .hours-operation {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     background-color: white;
     margin-bottom: 5vh;
     border-color: black;
@@ -32,10 +33,10 @@
 }
 
 .hours {
-    position:relative;
-    margin-top: 1.5vh;
-    margin-bottom: 1.25vh;
-    margin-left: 3vw;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 4vw;
     margin-right: 2vw;
 }
 
@@ -43,3 +44,14 @@
     color: black;
     text-underline-offset: 10px;
 }
+
+@media screen and (max-width: 414px) {
+    .hours-container {
+        width: 90%
+    }
+
+    .hours {
+        margin-left: 10vw;
+        margin-right: 8vw;
+    }
+   }

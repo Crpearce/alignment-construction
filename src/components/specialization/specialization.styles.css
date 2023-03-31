@@ -2,15 +2,15 @@
     display: flex;
     background-color: black;
     color: white;
-    height: 60vh;
+    height: 55vh;
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .special-text {
-    width: 35vw;
-    line-height: 1.85rem;
+    width: 40vw;
+    line-height: 2rem;
 }
 
 .special-image {

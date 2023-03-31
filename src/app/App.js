@@ -18,6 +18,7 @@ import "./App.css";
 
 function App() {
   const [windowDimension, setWindowDimension] = useState(null);
+  console.log(window.innerWidth)
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);

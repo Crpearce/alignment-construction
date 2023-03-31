@@ -10,7 +10,7 @@ const Transform = () => {
 
   return (
     <div className="transform-wrapper" data-aos="zoom-in">
-      <h2>WANT TO TRANSFORM YOUR HOME'S APPEARANCE?</h2>
+      <h2 className="transform-intro">WANT TO TRANSFORM YOUR HOME'S APPEARANCE?</h2>
       <span className="transform-reach">
         {" "}
         REACH OUT TODAY TO SCHEDULE OUR SERVICES

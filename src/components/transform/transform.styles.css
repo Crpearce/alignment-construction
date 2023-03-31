@@ -36,3 +36,29 @@
     color:#c80001;
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .transform-wrapper {
+        height: 40vh;
+    }
+    .transform-intro {
+        font-size: 1.5rem;
+    }
+   }
+
+   @media screen and (max-width: 414px) {
+    .transform-wrapper {
+        height: 50vh;
+    }
+    .transform-types {
+        width: 80%;
+    }
+
+    .transform-reach {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1.05rem;
+    }
+   }
+

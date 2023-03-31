@@ -11,6 +11,12 @@
     margin: 0;
 }
 
+.concrete-services-link-container:hover,
+.concrete-services-link-container:hover .concrete-services-link-header {
+    color: #c80001;
+}
+
+
 .concrete-services-link-schedule {
     font-family: 'Oswald', sans-serif;
     font-size: 1.35em;
@@ -29,3 +35,26 @@
     background-color: black;
     font-weight: 900;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .concrete-services-link-container {
+        height: 40vh;
+    }
+
+    .concrete-services-link-header {
+        font-size: 2.15rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .concrete-services-link-container {
+        height: 35vh;
+    }
+    .concrete-services-link-header {
+        font-size: 1.6rem;
+    }
+    .concrete-services-link-schedule {
+        font-size: 1rem;
+    }
+   }

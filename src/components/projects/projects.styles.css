@@ -17,7 +17,6 @@
 
 .additions-link-title,
 .concrete-link-title {
-    font-family: 'Oswald', sans-serif;
     font-size: 3.5rem;
     font-weight: 800;
     letter-spacing: .05rem;
@@ -43,8 +42,16 @@
 
 .concrete-link-text,
 .additions-link-text{
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     letter-spacing: .06rem;
     word-spacing: .2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .concrete-link-text,
+    .additions-link-text {
+        font-size: 1.2rem;
+    }
 }

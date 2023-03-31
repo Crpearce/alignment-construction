@@ -14,6 +14,7 @@ const About = () => {
     <section className="about-wrapper">
       <Banner sectionName='About Us'/>
       <HomeAdvisor />
+      <Specialization />
       <div className="about-container">
         <h2 className="about-ready">
           TURN TO YOUR TRUSTED, LOCAL CONTRACTOR TODAY!
@@ -30,7 +31,6 @@ const About = () => {
           <button className="concrete-services-link-button">Contact Us</button>
         </Link>
       </div>
-      <Specialization />
       <ServeBar />
     </section>
   );

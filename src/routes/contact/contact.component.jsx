@@ -10,8 +10,7 @@ const Contact = () => {
   }, []);
   return (
     <div className="contact-wrapper">
-            <Banner sectionName="Contact" />
-
+      <Banner sectionName="Contact" />
       <div className="contact-details-container">
         <p className="contact-intro">
           Our team in Littleton, CO has over 15 years of experience. We
@@ -26,7 +25,7 @@ const Contact = () => {
             title="(720)282-1210"
             className="contact-number"
           >
-           (720) 282-1210
+            (720) 282-1210
           </a>{" "}
           or fill out the form below to learn more about our services today.
         </span>
