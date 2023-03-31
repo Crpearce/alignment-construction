@@ -1,4 +1,5 @@
 import "./areas.styles.css";
+import Banner from "../../components/banner/banner.component";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -11,7 +12,7 @@ const Areas = ({ serviceAreas }) => {
   }, []);
   return (
     <div className="areas-container">
-      <h2 className="service-header">SERVICE AREAS</h2>
+      <Banner sectionName="Service Areas" />
       <p className="areas-text">
         At Alignment Construction we can tackle a wide variety of construction
         projects. Get in contact today for structural wall installations,

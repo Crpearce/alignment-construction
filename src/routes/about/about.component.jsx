@@ -4,6 +4,7 @@ import HomeAdvisor from "../../components/homeAdvisor/homeAdvisor.component";
 import ServeBar from "../../components/serveBar/serveBar.component";
 import Specialization from "../../components/specialization/specialization.component";
 import "./about.styles.css";
+import Banner from "../../components/banner/banner.component";
 
 const About = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const About = () => {
   }, []);
   return (
     <section className="about-wrapper">
+      <Banner sectionName='About Us'/>
       <HomeAdvisor />
       <div className="about-container">
         <h2 className="about-ready">
