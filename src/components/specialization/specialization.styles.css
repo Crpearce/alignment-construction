@@ -22,3 +22,22 @@
     transform: scale(1.18);
     transition: transform .75s ease;
 }
+
+
+@media screen and (max-width: 414px) {
+    .special-container {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 8vh;
+    }
+    .special-text {
+        width: 80%;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        padding-bottom: 2vh;
+    }
+
+    .special-image {
+        width: 70%;
+    }
+   }

@@ -36,3 +36,19 @@
 .yelp-icon:hover {
     color: #c80001;
 }
+
+@media screen and (max-width: 414px) {
+    .home-advisor-header {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .home-advisor-logo {
+        width: 30vw;
+    }
+
+    .home-advisor-text {
+        width: 85%;
+        font-size: 1rem;
+    }
+   }
