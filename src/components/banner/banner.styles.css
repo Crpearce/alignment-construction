@@ -9,3 +9,10 @@
     justify-content: flex-start;
     padding-left: 7vw;
 }
+
+@media screen and (max-width: 414px) {
+    .banner-container {
+        height: 8vh;
+        font-size: 2.25rem;
+    }
+   }
