@@ -60,4 +60,14 @@
         width: 90%;
         padding-top: 2vh;
     }
+
+    .remodeling-link-header,
+    .structural-link-header {
+        font-size: 2.1rem;
+    }
+
+    .remodeling-link-text,
+    .structural-link-text {
+        font-size: 1rem;
+    }
    }
